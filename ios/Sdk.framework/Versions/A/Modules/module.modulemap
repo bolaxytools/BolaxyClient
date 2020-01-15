@@ -1,0 +1,8 @@
+framework module "Sdk" {
+	header "ref.h"
+    header "Sdk.objc.h"
+    header "Universe.objc.h"
+    header "Sdk.h"
+
+    export *
+}
